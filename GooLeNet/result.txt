@@ -1,0 +1,119 @@
+C:\ProgramData\Anaconda3\envs\torch\python.exe D:\研究生\经典网络\GoogleNet\goole.py 
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 10, 24, 24]             260
+         MaxPool2d-2           [-1, 10, 12, 12]               0
+         AvgPool2d-3           [-1, 10, 12, 12]               0
+            Conv2d-4           [-1, 24, 12, 12]             264
+            Conv2d-5           [-1, 16, 12, 12]             176
+            Conv2d-6           [-1, 16, 12, 12]             176
+            Conv2d-7           [-1, 24, 12, 12]           9,624
+            Conv2d-8           [-1, 16, 12, 12]             176
+            Conv2d-9           [-1, 23, 12, 12]           3,335
+           Conv2d-10           [-1, 24, 12, 12]           4,992
+  InceptionModule-11           [-1, 88, 12, 12]               0
+           Conv2d-12             [-1, 20, 8, 8]          44,020
+        MaxPool2d-13             [-1, 20, 4, 4]               0
+        AvgPool2d-14             [-1, 20, 4, 4]               0
+           Conv2d-15             [-1, 24, 4, 4]             504
+           Conv2d-16             [-1, 16, 4, 4]             336
+           Conv2d-17             [-1, 16, 4, 4]             336
+           Conv2d-18             [-1, 24, 4, 4]           9,624
+           Conv2d-19             [-1, 16, 4, 4]             336
+           Conv2d-20             [-1, 23, 4, 4]           3,335
+           Conv2d-21             [-1, 24, 4, 4]           4,992
+  InceptionModule-22             [-1, 88, 4, 4]               0
+           Linear-23                   [-1, 10]          14,090
+================================================================
+Total params: 96,576
+Trainable params: 96,576
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.36
+Params size (MB): 0.37
+Estimated Total Size (MB): 0.73
+----------------------------------------------------------------
+[1/20] Train Loss: 0.1971, Train Acc: 0.9363
+
+[1/20] Test Loss: 0.0621, Test Acc: 0.9798
+
+[2/20] Train Loss: 0.0624, Train Acc: 0.9806
+
+[2/20] Test Loss: 0.0484, Test Acc: 0.9841
+
+[3/20] Train Loss: 0.0472, Train Acc: 0.9850
+
+[3/20] Test Loss: 0.0369, Test Acc: 0.9876
+
+[4/20] Train Loss: 0.0390, Train Acc: 0.9877
+
+[4/20] Test Loss: 0.0355, Test Acc: 0.9886
+
+[5/20] Train Loss: 0.0320, Train Acc: 0.9903
+
+[5/20] Test Loss: 0.0418, Test Acc: 0.9851
+
+[6/20] Train Loss: 0.0280, Train Acc: 0.9912
+
+[6/20] Test Loss: 0.0351, Test Acc: 0.9883
+
+[7/20] Train Loss: 0.0245, Train Acc: 0.9919
+
+[7/20] Test Loss: 0.0299, Test Acc: 0.9909
+
+[8/20] Train Loss: 0.0220, Train Acc: 0.9930
+
+[8/20] Test Loss: 0.0356, Test Acc: 0.9880
+
+[9/20] Train Loss: 0.0198, Train Acc: 0.9937
+
+[9/20] Test Loss: 0.0373, Test Acc: 0.9882
+
+[10/20] Train Loss: 0.0172, Train Acc: 0.9946
+
+[10/20] Test Loss: 0.0339, Test Acc: 0.9905
+
+[11/20] Train Loss: 0.0158, Train Acc: 0.9946
+
+[11/20] Test Loss: 0.0334, Test Acc: 0.9897
+
+[12/20] Train Loss: 0.0143, Train Acc: 0.9953
+
+[12/20] Test Loss: 0.0297, Test Acc: 0.9920
+
+[13/20] Train Loss: 0.0126, Train Acc: 0.9960
+
+[13/20] Test Loss: 0.0297, Test Acc: 0.9906
+
+[14/20] Train Loss: 0.0113, Train Acc: 0.9962
+
+[14/20] Test Loss: 0.0271, Test Acc: 0.9922
+
+[15/20] Train Loss: 0.0114, Train Acc: 0.9962
+
+[15/20] Test Loss: 0.0302, Test Acc: 0.9911
+
+[16/20] Train Loss: 0.0110, Train Acc: 0.9959
+
+[16/20] Test Loss: 0.0380, Test Acc: 0.9901
+
+[17/20] Train Loss: 0.0101, Train Acc: 0.9968
+
+[17/20] Test Loss: 0.0388, Test Acc: 0.9897
+
+[18/20] Train Loss: 0.0079, Train Acc: 0.9973
+
+[18/20] Test Loss: 0.0351, Test Acc: 0.9905
+
+[19/20] Train Loss: 0.0091, Train Acc: 0.9970
+
+[19/20] Test Loss: 0.0370, Test Acc: 0.9908
+
+[20/20] Train Loss: 0.0090, Train Acc: 0.9967
+
+[20/20] Test Loss: 0.0373, Test Acc: 0.9916
+
+
+Process finished with exit code 0
