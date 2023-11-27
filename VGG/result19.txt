@@ -1,0 +1,123 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 64, 64]             640
+            Conv2d-2           [-1, 64, 64, 64]          36,928
+         MaxPool2d-3           [-1, 64, 32, 32]               0
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5          [-1, 128, 32, 32]          73,856
+            Conv2d-6          [-1, 128, 32, 32]         147,584
+         MaxPool2d-7          [-1, 128, 16, 16]               0
+              ReLU-8          [-1, 128, 16, 16]               0
+            Conv2d-9          [-1, 256, 16, 16]         295,168
+           Conv2d-10          [-1, 256, 16, 16]         590,080
+           Conv2d-11          [-1, 256, 16, 16]         590,080
+           Conv2d-12          [-1, 256, 16, 16]         590,080
+        MaxPool2d-13            [-1, 256, 8, 8]               0
+             ReLU-14            [-1, 256, 8, 8]               0
+           Conv2d-15            [-1, 512, 8, 8]       1,180,160
+           Conv2d-16            [-1, 512, 8, 8]       2,359,808
+           Conv2d-17            [-1, 512, 8, 8]       2,359,808
+           Conv2d-18            [-1, 512, 8, 8]       2,359,808
+        MaxPool2d-19            [-1, 512, 4, 4]               0
+             ReLU-20            [-1, 512, 4, 4]               0
+           Conv2d-21            [-1, 512, 4, 4]       2,359,808
+           Conv2d-22            [-1, 512, 4, 4]       2,359,808
+           Conv2d-23            [-1, 512, 4, 4]       2,359,808
+           Conv2d-24            [-1, 512, 4, 4]       2,359,808
+        MaxPool2d-25            [-1, 512, 2, 2]               0
+             ReLU-26            [-1, 512, 2, 2]               0
+           Linear-27                 [-1, 1024]       2,098,176
+             ReLU-28                 [-1, 1024]               0
+           Linear-29                  [-1, 512]         524,800
+             ReLU-30                  [-1, 512]               0
+           Linear-31                   [-1, 10]           5,130
+================================================================
+Total params: 22,651,338
+Trainable params: 22,651,338
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.02
+Forward/backward pass size (MB): 11.18
+Params size (MB): 86.41
+Estimated Total Size (MB): 97.60
+----------------------------------------------------------------
+[1/20] Train Loss: 0.3828, Train Acc: 0.8666
+
+[1/20] Test Loss: 0.0816, Test Acc: 0.9741
+
+[2/20] Train Loss: 0.0898, Train Acc: 0.9740
+
+[2/20] Test Loss: 0.0619, Test Acc: 0.9802
+
+[3/20] Train Loss: 0.0680, Train Acc: 0.9804
+
+[3/20] Test Loss: 0.0905, Test Acc: 0.9737
+
+[4/20] Train Loss: 0.0582, Train Acc: 0.9837
+
+[4/20] Test Loss: 0.0580, Test Acc: 0.9806
+
+[5/20] Train Loss: 0.0536, Train Acc: 0.9844
+
+[5/20] Test Loss: 0.0431, Test Acc: 0.9871
+
+[6/20] Train Loss: 0.0457, Train Acc: 0.9868
+
+[6/20] Test Loss: 0.0458, Test Acc: 0.9850
+
+[7/20] Train Loss: 0.0406, Train Acc: 0.9891
+
+[7/20] Test Loss: 0.0337, Test Acc: 0.9883
+
+[8/20] Train Loss: 0.0425, Train Acc: 0.9879
+
+[8/20] Test Loss: 0.0365, Test Acc: 0.9890
+
+[9/20] Train Loss: 0.0391, Train Acc: 0.9890
+
+[9/20] Test Loss: 0.0373, Test Acc: 0.9885
+
+[10/20] Train Loss: 0.0364, Train Acc: 0.9896
+
+[10/20] Test Loss: 0.0670, Test Acc: 0.9813
+
+[11/20] Train Loss: 0.0327, Train Acc: 0.9906
+
+[11/20] Test Loss: 0.0322, Test Acc: 0.9893
+
+[12/20] Train Loss: 0.0320, Train Acc: 0.9909
+
+[12/20] Test Loss: 0.0324, Test Acc: 0.9898
+
+[13/20] Train Loss: 0.0312, Train Acc: 0.9910
+
+[13/20] Test Loss: 0.0342, Test Acc: 0.9896
+
+[14/20] Train Loss: 0.0300, Train Acc: 0.9919
+
+[14/20] Test Loss: 0.0574, Test Acc: 0.9840
+
+[15/20] Train Loss: 0.0292, Train Acc: 0.9919
+
+[15/20] Test Loss: 0.0448, Test Acc: 0.9872
+
+[16/20] Train Loss: 0.0263, Train Acc: 0.9927
+
+[16/20] Test Loss: 0.0451, Test Acc: 0.9876
+
+[17/20] Train Loss: 0.0275, Train Acc: 0.9924
+
+[17/20] Test Loss: 0.0276, Test Acc: 0.9902
+
+[18/20] Train Loss: 0.0261, Train Acc: 0.9928
+
+[18/20] Test Loss: 0.0304, Test Acc: 0.9907
+
+[19/20] Train Loss: 0.0233, Train Acc: 0.9931
+
+[19/20] Test Loss: 0.0398, Test Acc: 0.9899
+
+[20/20] Train Loss: 0.0265, Train Acc: 0.9925
+
+[20/20] Test Loss: 0.0476, Test Acc: 0.9866
