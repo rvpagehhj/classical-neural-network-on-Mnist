@@ -1,0 +1,148 @@
+C:\ProgramData\Anaconda3\envs\torch\python.exe "D:\研究生\经典网络\cbam senet\CBAM.py" 
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 16, 26, 26]             160
+            Conv2d-2           [-1, 16, 13, 13]           2,320
+            Conv2d-3           [-1, 16, 13, 13]           2,320
+ AdaptiveAvgPool2d-4             [-1, 16, 1, 1]               0
+            Conv2d-5              [-1, 1, 1, 1]              16
+              ReLU-6              [-1, 1, 1, 1]               0
+            Conv2d-7             [-1, 16, 1, 1]              16
+ AdaptiveMaxPool2d-8             [-1, 16, 1, 1]               0
+            Conv2d-9              [-1, 1, 1, 1]              16
+             ReLU-10              [-1, 1, 1, 1]               0
+           Conv2d-11             [-1, 16, 1, 1]              16
+          Sigmoid-12             [-1, 16, 1, 1]               0
+ChannelAttentionModule-13             [-1, 16, 1, 1]               0
+           Conv2d-14            [-1, 1, 13, 13]              99
+          Sigmoid-15            [-1, 1, 13, 13]               0
+SpatialAttentionModule-16            [-1, 1, 13, 13]               0
+             CBAM-17           [-1, 16, 13, 13]               0
+    ResidualBlock-18           [-1, 16, 13, 13]               0
+           Conv2d-19           [-1, 32, 11, 11]           4,640
+           Conv2d-20             [-1, 32, 5, 5]           9,248
+           Conv2d-21             [-1, 32, 5, 5]           9,248
+AdaptiveAvgPool2d-22             [-1, 32, 1, 1]               0
+           Conv2d-23              [-1, 2, 1, 1]              64
+             ReLU-24              [-1, 2, 1, 1]               0
+           Conv2d-25             [-1, 32, 1, 1]              64
+AdaptiveMaxPool2d-26             [-1, 32, 1, 1]               0
+           Conv2d-27              [-1, 2, 1, 1]              64
+             ReLU-28              [-1, 2, 1, 1]               0
+           Conv2d-29             [-1, 32, 1, 1]              64
+          Sigmoid-30             [-1, 32, 1, 1]               0
+ChannelAttentionModule-31             [-1, 32, 1, 1]               0
+           Conv2d-32              [-1, 1, 5, 5]              99
+          Sigmoid-33              [-1, 1, 5, 5]               0
+SpatialAttentionModule-34              [-1, 1, 5, 5]               0
+             CBAM-35             [-1, 32, 5, 5]               0
+    ResidualBlock-36             [-1, 32, 5, 5]               0
+           Conv2d-37             [-1, 64, 3, 3]          18,496
+           Conv2d-38             [-1, 64, 1, 1]          36,928
+           Conv2d-39             [-1, 64, 1, 1]          36,928
+AdaptiveAvgPool2d-40             [-1, 64, 1, 1]               0
+           Conv2d-41              [-1, 4, 1, 1]             256
+             ReLU-42              [-1, 4, 1, 1]               0
+           Conv2d-43             [-1, 64, 1, 1]             256
+AdaptiveMaxPool2d-44             [-1, 64, 1, 1]               0
+           Conv2d-45              [-1, 4, 1, 1]             256
+             ReLU-46              [-1, 4, 1, 1]               0
+           Conv2d-47             [-1, 64, 1, 1]             256
+          Sigmoid-48             [-1, 64, 1, 1]               0
+ChannelAttentionModule-49             [-1, 64, 1, 1]               0
+           Conv2d-50              [-1, 1, 1, 1]              99
+          Sigmoid-51              [-1, 1, 1, 1]               0
+SpatialAttentionModule-52              [-1, 1, 1, 1]               0
+             CBAM-53             [-1, 64, 1, 1]               0
+    ResidualBlock-54             [-1, 64, 1, 1]               0
+           Linear-55                   [-1, 10]             650
+================================================================
+Total params: 122,579
+Trainable params: 122,579
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.24
+Params size (MB): 0.47
+Estimated Total Size (MB): 0.71
+----------------------------------------------------------------
+[1/20] Train Loss: 0.3027, Train Acc: 0.9018
+
+[1/20] Test Loss: 0.0813, Test Acc: 0.9745
+
+[2/20] Train Loss: 0.0639, Train Acc: 0.9805
+
+[2/20] Test Loss: 0.0411, Test Acc: 0.9867
+
+[3/20] Train Loss: 0.0442, Train Acc: 0.9860
+
+[3/20] Test Loss: 0.0442, Test Acc: 0.9870
+
+[4/20] Train Loss: 0.0334, Train Acc: 0.9898
+
+[4/20] Test Loss: 0.0360, Test Acc: 0.9878
+
+[5/20] Train Loss: 0.0269, Train Acc: 0.9916
+
+[5/20] Test Loss: 0.0335, Test Acc: 0.9894
+
+[6/20] Train Loss: 0.0222, Train Acc: 0.9927
+
+[6/20] Test Loss: 0.0305, Test Acc: 0.9906
+
+[7/20] Train Loss: 0.0193, Train Acc: 0.9941
+
+[7/20] Test Loss: 0.0290, Test Acc: 0.9911
+
+[8/20] Train Loss: 0.0155, Train Acc: 0.9953
+
+[8/20] Test Loss: 0.0280, Test Acc: 0.9913
+
+[9/20] Train Loss: 0.0138, Train Acc: 0.9957
+
+[9/20] Test Loss: 0.0308, Test Acc: 0.9904
+
+[10/20] Train Loss: 0.0110, Train Acc: 0.9966
+
+[10/20] Test Loss: 0.0316, Test Acc: 0.9904
+
+[11/20] Train Loss: 0.0096, Train Acc: 0.9970
+
+[11/20] Test Loss: 0.0306, Test Acc: 0.9910
+
+[12/20] Train Loss: 0.0083, Train Acc: 0.9974
+
+[12/20] Test Loss: 0.0322, Test Acc: 0.9914
+
+[13/20] Train Loss: 0.0073, Train Acc: 0.9976
+
+[13/20] Test Loss: 0.0318, Test Acc: 0.9917
+
+[14/20] Train Loss: 0.0064, Train Acc: 0.9978
+
+[14/20] Test Loss: 0.0396, Test Acc: 0.9900
+
+[15/20] Train Loss: 0.0069, Train Acc: 0.9977
+
+[15/20] Test Loss: 0.0365, Test Acc: 0.9916
+
+[16/20] Train Loss: 0.0038, Train Acc: 0.9989
+
+[16/20] Test Loss: 0.0330, Test Acc: 0.9920
+
+[17/20] Train Loss: 0.0038, Train Acc: 0.9987
+
+[17/20] Test Loss: 0.0320, Test Acc: 0.9918
+
+[18/20] Train Loss: 0.0030, Train Acc: 0.9989
+
+[18/20] Test Loss: 0.0353, Test Acc: 0.9920
+
+[19/20] Train Loss: 0.0037, Train Acc: 0.9986
+
+[19/20] Test Loss: 0.0509, Test Acc: 0.9891
+
+[20/20] Train Loss: 0.0047, Train Acc: 0.9984
+
+[20/20] Test Loss: 0.0338, Test Acc: 0.9926
