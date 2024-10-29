@@ -1,0 +1,177 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 32, 112, 112]             288
+       BatchNorm2d-2         [-1, 32, 112, 112]              64
+              ReLU-3         [-1, 32, 112, 112]               0
+            Conv2d-4         [-1, 32, 112, 112]             288
+       BatchNorm2d-5         [-1, 32, 112, 112]              64
+              ReLU-6         [-1, 32, 112, 112]               0
+            Conv2d-7         [-1, 64, 112, 112]           2,048
+       BatchNorm2d-8         [-1, 64, 112, 112]             128
+              ReLU-9         [-1, 64, 112, 112]               0
+           Conv2d-10           [-1, 64, 56, 56]             576
+      BatchNorm2d-11           [-1, 64, 56, 56]             128
+             ReLU-12           [-1, 64, 56, 56]               0
+           Conv2d-13          [-1, 128, 56, 56]           8,192
+      BatchNorm2d-14          [-1, 128, 56, 56]             256
+             ReLU-15          [-1, 128, 56, 56]               0
+           Conv2d-16          [-1, 128, 56, 56]           1,152
+      BatchNorm2d-17          [-1, 128, 56, 56]             256
+             ReLU-18          [-1, 128, 56, 56]               0
+           Conv2d-19          [-1, 128, 56, 56]          16,384
+      BatchNorm2d-20          [-1, 128, 56, 56]             256
+             ReLU-21          [-1, 128, 56, 56]               0
+           Conv2d-22          [-1, 128, 28, 28]           1,152
+      BatchNorm2d-23          [-1, 128, 28, 28]             256
+             ReLU-24          [-1, 128, 28, 28]               0
+           Conv2d-25          [-1, 256, 28, 28]          32,768
+      BatchNorm2d-26          [-1, 256, 28, 28]             512
+             ReLU-27          [-1, 256, 28, 28]               0
+           Conv2d-28          [-1, 256, 28, 28]           2,304
+      BatchNorm2d-29          [-1, 256, 28, 28]             512
+             ReLU-30          [-1, 256, 28, 28]               0
+           Conv2d-31          [-1, 256, 28, 28]          65,536
+      BatchNorm2d-32          [-1, 256, 28, 28]             512
+             ReLU-33          [-1, 256, 28, 28]               0
+           Conv2d-34          [-1, 256, 14, 14]           2,304
+      BatchNorm2d-35          [-1, 256, 14, 14]             512
+             ReLU-36          [-1, 256, 14, 14]               0
+           Conv2d-37          [-1, 512, 14, 14]         131,072
+      BatchNorm2d-38          [-1, 512, 14, 14]           1,024
+             ReLU-39          [-1, 512, 14, 14]               0
+           Conv2d-40          [-1, 512, 14, 14]           4,608
+      BatchNorm2d-41          [-1, 512, 14, 14]           1,024
+             ReLU-42          [-1, 512, 14, 14]               0
+           Conv2d-43          [-1, 512, 14, 14]         262,144
+      BatchNorm2d-44          [-1, 512, 14, 14]           1,024
+             ReLU-45          [-1, 512, 14, 14]               0
+           Conv2d-46          [-1, 512, 14, 14]           4,608
+      BatchNorm2d-47          [-1, 512, 14, 14]           1,024
+             ReLU-48          [-1, 512, 14, 14]               0
+           Conv2d-49          [-1, 512, 14, 14]         262,144
+      BatchNorm2d-50          [-1, 512, 14, 14]           1,024
+             ReLU-51          [-1, 512, 14, 14]               0
+           Conv2d-52          [-1, 512, 14, 14]           4,608
+      BatchNorm2d-53          [-1, 512, 14, 14]           1,024
+             ReLU-54          [-1, 512, 14, 14]               0
+           Conv2d-55          [-1, 512, 14, 14]         262,144
+      BatchNorm2d-56          [-1, 512, 14, 14]           1,024
+             ReLU-57          [-1, 512, 14, 14]               0
+           Conv2d-58          [-1, 512, 14, 14]           4,608
+      BatchNorm2d-59          [-1, 512, 14, 14]           1,024
+             ReLU-60          [-1, 512, 14, 14]               0
+           Conv2d-61          [-1, 512, 14, 14]         262,144
+      BatchNorm2d-62          [-1, 512, 14, 14]           1,024
+             ReLU-63          [-1, 512, 14, 14]               0
+           Conv2d-64          [-1, 512, 14, 14]           4,608
+      BatchNorm2d-65          [-1, 512, 14, 14]           1,024
+             ReLU-66          [-1, 512, 14, 14]               0
+           Conv2d-67          [-1, 512, 14, 14]         262,144
+      BatchNorm2d-68          [-1, 512, 14, 14]           1,024
+             ReLU-69          [-1, 512, 14, 14]               0
+           Conv2d-70            [-1, 512, 7, 7]           4,608
+      BatchNorm2d-71            [-1, 512, 7, 7]           1,024
+             ReLU-72            [-1, 512, 7, 7]               0
+           Conv2d-73           [-1, 1024, 7, 7]         524,288
+      BatchNorm2d-74           [-1, 1024, 7, 7]           2,048
+             ReLU-75           [-1, 1024, 7, 7]               0
+           Conv2d-76           [-1, 1024, 7, 7]           9,216
+      BatchNorm2d-77           [-1, 1024, 7, 7]           2,048
+             ReLU-78           [-1, 1024, 7, 7]               0
+           Conv2d-79           [-1, 1024, 7, 7]       1,048,576
+      BatchNorm2d-80           [-1, 1024, 7, 7]           2,048
+             ReLU-81           [-1, 1024, 7, 7]               0
+        AvgPool2d-82           [-1, 1024, 1, 1]               0
+           Linear-83                   [-1, 10]          10,250
+================================================================
+Total params: 3,216,650
+Trainable params: 3,216,650
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.19
+Forward/backward pass size (MB): 115.43
+Params size (MB): 12.27
+Estimated Total Size (MB): 127.89
+----------------------------------------------------------------
+/usr/local/lib/python3.10/dist-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+[1/20] Train Loss: 1.8728, Train Acc: 0.3483
+
+[1/20] Test Loss: 1.4776, Test Acc: 0.5532
+
+[2/20] Train Loss: 0.6199, Train Acc: 0.7993
+
+[2/20] Test Loss: 0.2653, Test Acc: 0.9168
+
+[3/20] Train Loss: 0.1183, Train Acc: 0.9645
+
+[3/20] Test Loss: 0.1107, Test Acc: 0.9645
+
+[4/20] Train Loss: 0.0710, Train Acc: 0.9778
+
+[4/20] Test Loss: 0.0435, Test Acc: 0.9862
+
+[5/20] Train Loss: 0.0495, Train Acc: 0.9850
+
+[5/20] Test Loss: 0.0403, Test Acc: 0.9878
+
+[6/20] Train Loss: 0.0385, Train Acc: 0.9879
+
+[6/20] Test Loss: 0.0540, Test Acc: 0.9829
+
+[7/20] Train Loss: 0.0305, Train Acc: 0.9901
+
+[7/20] Test Loss: 0.0412, Test Acc: 0.9864
+
+[8/20] Train Loss: 0.0233, Train Acc: 0.9923
+
+[8/20] Test Loss: 0.0319, Test Acc: 0.9903
+
+[9/20] Train Loss: 0.0175, Train Acc: 0.9943
+
+[9/20] Test Loss: 0.0231, Test Acc: 0.9930
+
+[10/20] Train Loss: 0.0137, Train Acc: 0.9956
+
+[10/20] Test Loss: 0.0269, Test Acc: 0.9916
+
+[11/20] Train Loss: 0.0111, Train Acc: 0.9964
+
+[11/20] Test Loss: 0.0262, Test Acc: 0.9932
+
+[12/20] Train Loss: 0.0083, Train Acc: 0.9975
+
+[12/20] Test Loss: 0.0235, Test Acc: 0.9934
+
+[13/20] Train Loss: 0.0063, Train Acc: 0.9979
+
+[13/20] Test Loss: 0.0269, Test Acc: 0.9920
+
+[14/20] Train Loss: 0.0039, Train Acc: 0.9990
+
+[14/20] Test Loss: 0.0257, Test Acc: 0.9933
+
+[15/20] Train Loss: 0.0024, Train Acc: 0.9995
+
+[15/20] Test Loss: 0.0246, Test Acc: 0.9944
+
+[16/20] Train Loss: 0.0017, Train Acc: 0.9996
+
+[16/20] Test Loss: 0.0248, Test Acc: 0.9938
+
+[17/20] Train Loss: 0.0015, Train Acc: 0.9996
+
+[17/20] Test Loss: 0.0248, Test Acc: 0.9931
+
+[18/20] Train Loss: 0.0004, Train Acc: 1.0000
+
+[18/20] Test Loss: 0.0265, Test Acc: 0.9939
+
+[19/20] Train Loss: 0.0002, Train Acc: 1.0000
+
+[19/20] Test Loss: 0.0277, Test Acc: 0.9940
+
+[20/20] Train Loss: 0.0001, Train Acc: 1.0000
+
+[20/20] Test Loss: 0.0282, Test Acc: 0.9940
