@@ -1,0 +1,101 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 16, 24, 24]             416
+            Conv2d-2           [-1, 16, 12, 12]           2,320
+            Conv2d-3           [-1, 16, 12, 12]           2,320
+     ResidualBlock-4           [-1, 16, 12, 12]               0
+            Conv2d-5             [-1, 32, 8, 8]          12,832
+            Conv2d-6             [-1, 32, 4, 4]           9,248
+            Conv2d-7             [-1, 32, 4, 4]           9,248
+     ResidualBlock-8             [-1, 32, 4, 4]               0
+            Linear-9                   [-1, 10]           5,130
+================================================================
+Total params: 41,514
+Trainable params: 41,514
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.15
+Params size (MB): 0.16
+Estimated Total Size (MB): 0.31
+----------------------------------------------------------------
+[1/20] Train Loss: 0.1341, Train Acc: 0.9584
+
+[1/20] Test Loss: 0.0645, Test Acc: 0.9773
+
+[2/20] Train Loss: 0.0439, Train Acc: 0.9866
+
+[2/20] Test Loss: 0.0303, Test Acc: 0.9899
+
+[3/20] Train Loss: 0.0321, Train Acc: 0.9897
+
+[3/20] Test Loss: 0.0294, Test Acc: 0.9895
+
+[4/20] Train Loss: 0.0244, Train Acc: 0.9923
+
+[4/20] Test Loss: 0.0258, Test Acc: 0.9922
+
+[5/20] Train Loss: 0.0200, Train Acc: 0.9942
+
+[5/20] Test Loss: 0.0240, Test Acc: 0.9922
+
+[6/20] Train Loss: 0.0162, Train Acc: 0.9946
+
+[6/20] Test Loss: 0.0243, Test Acc: 0.9921
+
+[7/20] Train Loss: 0.0134, Train Acc: 0.9958
+
+[7/20] Test Loss: 0.0295, Test Acc: 0.9901
+
+[8/20] Train Loss: 0.0114, Train Acc: 0.9963
+
+[8/20] Test Loss: 0.0254, Test Acc: 0.9914
+
+[9/20] Train Loss: 0.0094, Train Acc: 0.9970
+
+[9/20] Test Loss: 0.0226, Test Acc: 0.9932
+
+[10/20] Train Loss: 0.0075, Train Acc: 0.9976
+
+[10/20] Test Loss: 0.0247, Test Acc: 0.9924
+
+[11/20] Train Loss: 0.0066, Train Acc: 0.9978
+
+[11/20] Test Loss: 0.0296, Test Acc: 0.9910
+
+[12/20] Train Loss: 0.0058, Train Acc: 0.9982
+
+[12/20] Test Loss: 0.0240, Test Acc: 0.9932
+
+[13/20] Train Loss: 0.0035, Train Acc: 0.9991
+
+[13/20] Test Loss: 0.0236, Test Acc: 0.9933
+
+[14/20] Train Loss: 0.0040, Train Acc: 0.9988
+
+[14/20] Test Loss: 0.0261, Test Acc: 0.9932
+
+[15/20] Train Loss: 0.0037, Train Acc: 0.9988
+
+[15/20] Test Loss: 0.0268, Test Acc: 0.9931
+
+[16/20] Train Loss: 0.0029, Train Acc: 0.9991
+
+[16/20] Test Loss: 0.0263, Test Acc: 0.9923
+
+[17/20] Train Loss: 0.0016, Train Acc: 0.9994
+
+[17/20] Test Loss: 0.0293, Test Acc: 0.9926
+
+[18/20] Train Loss: 0.0021, Train Acc: 0.9994
+
+[18/20] Test Loss: 0.0301, Test Acc: 0.9932
+
+[19/20] Train Loss: 0.0020, Train Acc: 0.9994
+
+[19/20] Test Loss: 0.0288, Test Acc: 0.9940
+
+[20/20] Train Loss: 0.0005, Train Acc: 0.9999
+
+[20/20] Test Loss: 0.0310, Test Acc: 0.9939
